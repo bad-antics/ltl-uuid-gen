@@ -1,0 +1,15 @@
+// ltl-uuid-gen/main.ltl
+//
+// UUID v1/v4/v7 generator + parser with RFC 4122 validation.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-uuid-gen v0.1.0")
+    io::println("UUID v1/v4/v7 generator + parser with RFC 4122 validation.")
+    0
+}

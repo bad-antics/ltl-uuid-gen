@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_uuid_gen
+
+import std::io
+use ltl_uuid_gen as lib
+
+fn main() {
+    io::println("ltl_uuid_gen demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
